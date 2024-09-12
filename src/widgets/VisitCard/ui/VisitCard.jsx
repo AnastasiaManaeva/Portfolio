@@ -7,7 +7,7 @@ export function VisitCard() {
     return (
         <Box className={cls.visitCardWrapper}>
             <Card className={`${cls.visitCard}`}>
-                <Grid2 container spacing={2}>
+                <Grid2 container spacing={'40px'}>
                     <Grid2 size={6}>
                         <Box>
                             <Typography variant="title">Уникальные сайты от профессионала</Typography>
@@ -19,7 +19,7 @@ export function VisitCard() {
                             </Typography>
                         </Box>
                         <Box style={{ marginTop: '3%' }}>
-                            <Button className={cls.visitCardBtn}>
+                            <Button>
                                 <Typography variant="fontBtn"> Связаться </Typography>
                                 <EastIcon style={{ width: '20px', height: '20px' }} />
                             </Button>

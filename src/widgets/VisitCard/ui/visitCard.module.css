@@ -14,21 +14,3 @@
     color: #fff !important;
     overflow: hidden;
 }
-
-.visitCardBtn {
-    cursor: pointer;
-    color: #000 !important;
-    display: flex !important;
-    gap: 10px;
-    justify-content: center !important;
-    align-items: center !important;
-    text-transform: none !important;
-    box-shadow: unset;
-    position: relative !important;
-    background-color: #fff !important;
-    border: 0px solid transparent !important;
-    padding: 20px 40px !important;
-    border-radius: 32px !important;
-    transition: background 0.2s, color 0.2s, border 0.2s, padding 0.2s,
-        transform 0.2s !important;
-}

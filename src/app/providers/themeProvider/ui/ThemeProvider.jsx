@@ -36,6 +36,31 @@ export const ThemeProvider = ({ children }) => {
                 lineHeight: 1.4,
             },
         },
+        components: {
+            MuiButton: {
+                defaultProps: {
+                    sx: {
+                        cursor: 'pointer',
+                        color: '#000',
+                        display: 'flex',
+                        gap: '10px',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        textTransform: 'none',
+                        boxShadow: 'unset',
+                        position: 'relative',
+                        backgroundColor: '#fff',
+                        padding: '20px 40px',
+                        borderRadius: '32px',
+                        transition: 'background 0.2s, color 0.2s, border 0.2s, padding 0.2s, transform 0.2s',
+                        '&:hover': {
+                            backgroundColor: '#fff',
+                            color: '#fff',
+                        },
+                    }
+                },
+            },
+        },
     });
 
     return <MaterialTheme theme={theme}>{children}</MaterialTheme>;
