@@ -1,0 +1,10 @@
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #111;
+}

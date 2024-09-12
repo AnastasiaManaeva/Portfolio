@@ -1,0 +1,26 @@
+.header {
+    position: relative;
+}
+
+.border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.1px;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.75) 20%,
+        transparent 40%,
+        transparent 60%,
+        rgba(255, 255, 255, 0.75) 80%
+    );
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
