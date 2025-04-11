@@ -1,0 +1,44 @@
+.servicesWrapper {
+    padding: 100px 0;
+}
+
+.services {
+    padding: 80px 40px;
+    background-color: #000 !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    overflow: hidden;
+}
+
+.servicesBtnContainer {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.servicesBtn {
+    background: inherit !important;
+    color: #fff !important;
+    border: 1px #fff solid !important;
+}
+
+.servicesBtn:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.servicesList {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.servicesList li {
+    border-bottom: 1px #fff solid;
+    padding-bottom: 20px;
+}
+
+.servicesList li:not(:first-child) {
+    padding-top: 30px;
+}

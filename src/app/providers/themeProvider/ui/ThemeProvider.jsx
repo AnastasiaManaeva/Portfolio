@@ -3,36 +3,81 @@ import { createTheme, ThemeProvider as MaterialTheme } from '@mui/material';
 
 export const ThemeProvider = ({ children }) => {
     const theme = createTheme({
+        breakpoints: {
+            values: {
+              xs: 0,
+              sm: 600,
+              md: 900,
+              lg: 1320, 
+              xl: 1536,
+            },
+        },
         typography: {
             fontFamily: 'Roboto, Arial',
+            h1: {
+                fontSize: 64,
+                fontWeight: 400,
+                lineHeight: 1.2,
+            },
+            h2: {
+                fontSize: 56,
+                fontWeight: 400,
+                lineHeight: 1.2,
+            },
+            h3: {
+                fontSize: 48,
+                fontWeight: 400,
+                lineHeight: 1.2,
+            },
+            h4: {
+                fontSize: 44,
+                fontWeight: 400,
+                lineHeight: 1.2,
+            },
+            h3BigLH: {
+                fontSize: 20,
+                fontWeight: 400,
+                lineHeight: 1.5,
+            },
+            h3SmallLH: {
+                fontSize: 20,
+                fontWeight: 400,
+                lineHeight: 1.2,
+            },
+            headerLogo: {
+                fontSize: 20,
+                fontWeight: 400,
+                lineHeight: 1.5,
+            },
             header: {
+                fontSize: 16,
+                fontWeight: 400,
+                lineHeight: 1.5,
+            },
+            footerLogo: {
                 fontSize: 20,
                 fontWeight: 400,
                 lineHeight: 1.5,
             },
             footer: {
-                fontSize: 20,
+                fontSize: 16,
                 fontWeight: 400,
                 lineHeight: 1.5,
             },
-            title: {
-                fontSize: 64,
-                fontWeight: 400,
-                lineHeight: 1.2,
-            },
-            contentBigLH: {
-                fontSize: 20,
+            contentSmall: {
+                fontSize: 16,
                 fontWeight: 400,
                 lineHeight: 1.5,
             },
-            contentSmallLH: {
-                fontSize: 20,
-                fontWeight: 400,
-                lineHeight: 1.2,
-            },
-            fontBtn: {
-                fontWeight: 500,
+            button: {
                 fontSize: 14,
+                fontWeight: 500,
+                lineHeight: 1.4,
+                textTransform: 'none',
+            },
+            caption: {
+                fontSize: 12,
+                fontWeight: 500,
                 lineHeight: 1.4,
             },
         },
@@ -54,8 +99,7 @@ export const ThemeProvider = ({ children }) => {
                         borderRadius: '32px',
                         transition: 'background 0.2s, color 0.2s, border 0.2s, padding 0.2s, transform 0.2s',
                         '&:hover': {
-                            backgroundColor: '#fff',
-                            color: '#fff',
+                            backgroundColor: '#cfcfcf',
                         },
                     }
                 },

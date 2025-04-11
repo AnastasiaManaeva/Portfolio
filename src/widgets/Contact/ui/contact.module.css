@@ -1,0 +1,34 @@
+.contactWrapper {
+    padding: 100px 0;
+}
+
+.contactCard {
+    padding: 80px 40px;
+    background: linear-gradient(
+        0deg,
+        rgba(15, 16, 21, 1),
+        rgba(196, 173, 210, 1)
+    ) !important;
+    background-origin: border-box;
+    border-radius: 30px !important;
+    color: #fff !important;
+    overflow: hidden;
+}
+
+.contactRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrWrapper {
+    width: 279px;
+    margin-top: 3%;
+}
+
+.qrWrapper img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+}

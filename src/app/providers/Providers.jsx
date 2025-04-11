@@ -1,13 +1,10 @@
 import React from 'react';
 import { ThemeProvider } from './themeProvider';
-import MainPage from '../../pages/MainPage/ui/MainPage';
 
-export const Providers = () => {
+export const Providers = ({children}) => {
     return (
-        <React.StrictMode>
-            <ThemeProvider>
-                <MainPage />
-            </ThemeProvider>
-        </React.StrictMode>
+        <ThemeProvider>
+            {children}
+        </ThemeProvider>
     );
 };

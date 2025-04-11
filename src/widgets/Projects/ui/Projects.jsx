@@ -7,11 +7,11 @@ export function Projects() {
         <Box className={cls.projects}>
             <Box style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <Box>
-                    <Typography variant="title">Проекты</Typography>
+                    <Typography variant="h1">Проекты</Typography>
                 </Box>
                 <Box>
                     <Button>
-                        <Typography variant="fontBtn"> Смотреть всё портфолио </Typography>
+                        <Typography variant="button"> Смотреть всё портфолио </Typography>
                     </Button>
                 </Box>
             </Box>
@@ -21,16 +21,16 @@ export function Projects() {
                         <img src={IMAGES.project1Img} alt="project1Img" className={cls.projectsImgTop} />
                         <Box className={cls.projectsTags}>
                             <Box>
-                                <Typography variant='fontBtn'>Аналитика</Typography>
+                                <Typography variant='button'>Аналитика</Typography>
                             </Box>
                             <Box>
-                                <Typography variant='fontBtn'>Дизайн</Typography>
+                                <Typography variant='button'>Дизайн</Typography>
                             </Box>
                             <Box>
-                                <Typography variant='fontBtn'>Вёрстка</Typography>
+                                <Typography variant='button'>Вёрстка</Typography>
                             </Box>
                         </Box>
-                        <Box style={{ marginTop: '10px' }}><Typography variant='contentSmallLH' style={{ textTransform: 'uppercase' }}>Создание корпоративного сайта</Typography></Box>
+                        <Box style={{ marginTop: '10px' }}><Typography variant='h3SmallLH' style={{ textTransform: 'uppercase' }}>Создание корпоративного сайта</Typography></Box>
                     </Box>
                 </Grid2>
                 <Grid2 size={6}>
@@ -38,16 +38,16 @@ export function Projects() {
                         <img src={IMAGES.project2Img} alt="project2Img" className={cls.projectsImgTop} />
                         <Box className={cls.projectsTags}>
                             <Box>
-                                <Typography variant='fontBtn'>Аналитика</Typography>
+                                <Typography variant='button'>Аналитика</Typography>
                             </Box>
                             <Box>
-                                <Typography variant='fontBtn'>Дизайн</Typography>
+                                <Typography variant='button'>Дизайн</Typography>
                             </Box>
                             <Box>
-                                <Typography variant='fontBtn'>Вёрстка</Typography>
+                                <Typography variant='button'>Вёрстка</Typography>
                             </Box>
                         </Box>
-                        <Box style={{ marginTop: '10px' }}><Typography variant='contentSmallLH' style={{ textTransform: 'uppercase' }}>Разработка встроенного приложения в Битрикс24</Typography></Box>
+                        <Box style={{ marginTop: '10px' }}><Typography variant='h3SmallLH' style={{ textTransform: 'uppercase' }}>Разработка встроенного приложения в Битрикс24</Typography></Box>
                     </Box>
                 </Grid2>
             </Grid2>
@@ -56,16 +56,16 @@ export function Projects() {
                     <img src={IMAGES.project3Img} alt="project3Im" className={cls.projectsImgBottom} />
                     <Box className={cls.projectsTags}>
                         <Box>
-                            <Typography variant='fontBtn'>Аналитика</Typography>
+                            <Typography variant='button'>Аналитика</Typography>
                         </Box>
                         <Box>
-                            <Typography variant='fontBtn'>Дизайн</Typography>
+                            <Typography variant='button'>Дизайн</Typography>
                         </Box>
                         <Box>
-                            <Typography variant='fontBtn'>Вёрстка</Typography>
+                            <Typography variant='button'>Вёрстка</Typography>
                         </Box>
                     </Box>
-                    <Box style={{ marginTop: '10px' }}><Typography variant='contentSmallLH' style={{ textTransform: 'uppercase' }}>Создание сайта "под ключ"</Typography></Box>
+                    <Box style={{ marginTop: '10px' }}><Typography variant='h3SmallLH' style={{ textTransform: 'uppercase' }}>Создание сайта "под ключ"</Typography></Box>
                 </Box>
             </Box>
         </Box>

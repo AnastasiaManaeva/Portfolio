@@ -1,0 +1,18 @@
+.accordionWrapper {
+    padding: 100px 0;
+}
+
+.accordion {
+    background-color: transparent !important;
+    color: white !important;
+    border-bottom: 2px white solid;
+    padding: 24px 10px;
+}
+
+.accordion:first-child {
+    border-top: 2px white solid;
+}
+
+.accordingHeader:hover{
+    color: rgb(182, 182, 182);
+}
